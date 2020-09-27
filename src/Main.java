@@ -98,7 +98,7 @@ class Main {
          *   array and compared it to inputted ground station bandwidth to check if bandwidth is enough.
          * */
 
-        String filename="2458843pass-schedule.txt";
+        String filename="pass-schedule.txt";
         int max,bandwidth;
 
         // Creating an array with 30m intervals
