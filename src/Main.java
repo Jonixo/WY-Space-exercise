@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-class Exercise {
+class Main {
 
     //Encapsulates reading data from txt file.
     public static int[] readData (String filename, int[] halfHourPeriods) {
@@ -110,16 +110,16 @@ class Exercise {
             halfHourPeriods[i]=0;
 
         //calling method to read data
-        halfHourPeriods=Exercise.readData(filename,halfHourPeriods);
+        halfHourPeriods= Main.readData(filename,halfHourPeriods);
 
         //calling method to find max value in array
-        max= Exercise.findMax(halfHourPeriods);
+        max= Main.findMax(halfHourPeriods);
 
         //calling method to get bandwidth
-        bandwidth= Exercise.getBandwidth();
+        bandwidth= Main.getBandwidth();
 
         //calling method to compare results
-        Exercise.compareAndResult(max,bandwidth);
+        Main.compareAndResult(max,bandwidth);
 
      }
 }

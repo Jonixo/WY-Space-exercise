@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WYSpaceExercise:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WYSpaceExercise_jar</output-path>
+    <root id="archive" name="WYSpaceExercise.jar">
+      <element id="module-output" name="WYSpaceExercise" />
+    </root>
+  </artifact>
+</component>
